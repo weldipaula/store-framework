@@ -2,7 +2,8 @@
   "store.home": {
     "blocks": [
       "rich-text",
-      "info-card#button-right"
+      "info-card#button-right",
+      "info-card#button-left"
     ]
   },
   "rich-text": {
@@ -34,7 +35,7 @@
       "callToActionMode": "Go to Collection",
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
-      "textAlignment": "left"
+      "textAlignment": "center"
     }
   }
 }
