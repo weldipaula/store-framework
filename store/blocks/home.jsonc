@@ -28,7 +28,7 @@
       "callToActionMode": "Go to Collection",
       "callToActionText": "Explore",
       "callToActionUrl": "/sale/d",
-      "textAlignment": "center"
+      "textAlignment": "left"
     }
   }
 }
