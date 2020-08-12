@@ -86,6 +86,7 @@
       "maxWidth": "100%"
     }
   },
+
   "responsive-layout.desktop#desktop": {
     "children": [
       "rich-text#desktop",
@@ -120,10 +121,10 @@
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Desktop.jpg?q=1",
       "link": {
-        "url": "/small-appliances/coffee-makers",
-      "maxWidth": "100%"
+        "url": "/small-appliances/coffee-makers"
       } ,
-      "alt": "Coffee Makers Collection"
+      "alt": "Coffee Makers Collection",
+      "maxWidth": "100%"
     }
   },
   
@@ -131,10 +132,10 @@
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/arquivos/Responsive-Image-Mobile.jpg?q=1",
       "link": {
-        "url": "/small-appliances/coffee-makers",
-      "maxWidth": "100%"
+        "url": "/small-appliances/coffee-makers"
       } ,
-      "alt": "Coffee Makers Collection"
+      "alt": "Coffee Makers Collection",
+      "maxWidth": "100%"
     }
   }
 }
