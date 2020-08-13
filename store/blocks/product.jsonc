@@ -2,7 +2,8 @@
   "store.product": {
       "children": [
         "breadcrumb",
-        "flex-layout.row#main"
+        "flex-layout.row#main",
+        "shelf.relatedProducts"
       ]
     },
 
@@ -18,8 +19,28 @@
 
     "flex-layout.col#left": {
       "children": [
-        "product-images"
+        "stack-layout#brand"
       ]
+    },
+
+    "stack-layout#brand": {
+      "children":[
+        "product-images",
+        "product-brand"
+      ]
+    },
+
+    "product-images":{
+      "props":{
+        "src": "/3-colors-retro-stand-mixer/p"
+      }
+    },
+
+    "product-brand":{
+      "props":{
+        "height": 30,
+        "displayMode": "logo"
+      }
     },
 
     "flex-layout.col#right": {
