@@ -8,18 +8,19 @@
 
   "image":{
     "props":{
-      "src": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",    
-      "minWidth": 100
+      "minWidth": "100%",
+      "src": "https://user-images.githubusercontent.com/284515/70230392-f982e780-1736-11ea-921b-e83208e80620.png"
     }
   },
 
-  "search-result-layout.customQuery":{
-    "props":{
-     "querySchema": {
-      "orderByField": "OrderByReleaseDateDESC",
-      "hideUnavailableItems": true,
-      "maxItemsPerPage": 8
-     }
+  "search-result-layout.customQuery": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "Blue Top Retro Camera"
+      }
     }
   }
 }
