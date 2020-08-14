@@ -1,15 +1,15 @@
 {
   "store.custom#landing": { 
     "blocks": [
-      "image#landingbanner", 
+      "image", 
       "search-result-layout.customQuery"
     ]
   },
 
-  "image#landingbanner":{
+  "image":{
     "props":{
-      "minWidth": 100,
-      "src": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png"
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/utensilios-cozinha-min.png",    
+      "minWidth": 100
     }
   },
 
