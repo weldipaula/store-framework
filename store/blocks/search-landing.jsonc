@@ -15,9 +15,11 @@
 
   "search-result-layout.customQuery":{
     "props":{
+     "querySchema": {
       "orderByField": "OrderByReleaseDateDESC",
       "hideUnavailableItems": true,
       "maxItemsPerPage": 8
+     }
     }
   }
 }
