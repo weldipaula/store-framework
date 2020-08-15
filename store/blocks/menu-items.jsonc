@@ -1,5 +1,8 @@
 {
   "menu-item#major-appliances": {
+    "children":[
+      "vtex.menu@2.x:submenu#major"
+    ],
       "props": {
       "type": "custom",
       "highlight": true,
