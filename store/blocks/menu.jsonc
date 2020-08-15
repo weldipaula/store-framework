@@ -12,7 +12,7 @@
   },
 
   "menu-item#major-appliances": {
-    "blocks": [
+    "children": [
       "vtex.menu@2.x:submenu#major"
     ]
   },
